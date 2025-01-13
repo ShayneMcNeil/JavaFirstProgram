@@ -1,14 +1,19 @@
 /*
 
-    Assignment: Setting Up Java and Writing Your First Program
+    Assignment: Exercise 2 - Extending Your Java Skills
     Student Name: Shayne McNeil
-    Date: January 11, 2025
+    Date: January 13, 2025
     Student ID: W0454809
 
  */
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Car myCar = new Car();
+
+        myCar.setMake("Honda");
+        System.out.println(myCar.getMake());
+        myCar.setYear(2018);
+        System.out.println(myCar.getYear());
     }
 }
