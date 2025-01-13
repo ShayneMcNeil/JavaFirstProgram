@@ -1,9 +1,18 @@
+/*
+
+    Assignment: Exercise 2 - Extending Your Java Skills
+    Student Name: Shayne McNeil
+    Date: January 13, 2025
+    Student ID: W0454809
+
+ */
+
 public class Car {
     // Attributes
-    String make;
-    String model;
-    int year;
-    String colour;
+    private String make;
+    private String model;
+    private int year;
+    private String colour;
 
     // Methods
     public String getMake() {
